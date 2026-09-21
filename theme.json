@@ -1,0 +1,201 @@
+{
+  "SchemaVersion": 2,
+  "MinWoxVersion": "2.4.5",
+  "ThemeId": "807b4689-606f-4e92-8eac-35e58c5d4f87",
+  "ThemeName": "i18n:theme_name",
+  "ThemeAuthor": "Wox & Codex",
+  "Version": "1.0.1",
+  "Description": "i18n:theme_description",
+  "BaseBackgroundColor": "#F5F1E9",
+  "BaseTextColor": "#293F50",
+  "BaseAccentColor": "#526F89",
+  "AppBackgroundColor": "transparent",
+  "AppBorderColor": "transparent",
+  "AppBorderWidth": 0,
+  "AppBorderRadius": 0,
+  "AppContentBackgroundColor": "#F5F1E9",
+  "AppContentBorderRadius": 10,
+  "AppPaddingLeft": 12,
+  "AppPaddingRight": 12,
+  "AppPaddingTop": 10,
+  "AppPaddingBottom": 4,
+  "QueryBoxBackgroundColor": "#FFFCF6",
+  "QueryBoxFontColor": "#293F50",
+  "QueryBoxCursorColor": "#526F89",
+  "QueryBoxBorderRadius": 12,
+  "QueryBoxBorderBottomWidth": 1,
+  "QueryBoxBorderBottomColor": "#CDD2D2",
+  "QueryBoxTextSelectionBackgroundColor": "#526F89",
+  "QueryBoxTextSelectionColor": "#FFFFFF",
+  "ResultItemTitleColor": "#293F50",
+  "ResultItemSubTitleColor": "#526575",
+  "ResultItemTailTextColor": "#526575",
+  "ResultItemActiveBackgroundColor": "#526F89",
+  "ResultItemActiveTitleColor": "#FFFFFF",
+  "ResultItemActiveSubTitleColor": "#F4EEE4",
+  "ResultItemActiveTailTextColor": "#FFFFFF",
+  "ResultItemHoverBackgroundColor": "#E3E8E9",
+  "ResultItemBorderRadius": 9,
+  "ResultItemPaddingLeft": 10,
+  "ResultItemPaddingRight": 10,
+  "ResultContainerPaddingTop": 8,
+  "ActionContainerBackgroundColor": "#F5F1E9",
+  "ActionContainerBorderColor": "transparent",
+  "ActionContainerBorderWidth": 0,
+  "ActionContainerBorderRadius": 18,
+  "ActionContainerHeaderFontColor": "#293F50",
+  "ActionContainerDividerColor": "#CDD2D2",
+  "ActionContainerPaddingLeft": 24,
+  "ActionContainerPaddingRight": 24,
+  "ActionContainerPaddingTop": 24,
+  "ActionContainerPaddingBottom": 24,
+  "ActionQueryBoxBackgroundColor": "#FFFCF6",
+  "ActionQueryBoxFontColor": "#293F50",
+  "ActionQueryBoxBorderRadius": 8,
+  "ActionItemFontColor": "#293F50",
+  "ActionItemActiveBackgroundColor": "#526F89",
+  "ActionItemActiveFontColor": "#FFFFFF",
+  "ActionItemBorderRadius": 7,
+  "ActionItemHotkeyFontColor": "#526575",
+  "ActionItemHotkeyBorderColor": "#A7B6C0",
+  "ActionItemActiveHotkeyFontColor": "#FFFFFF",
+  "ActionItemActiveHotkeyBorderColor": "#D5DFE8",
+  "ActionItemActiveHotkeyBackgroundColor": "transparent",
+  "PreviewBackgroundColor": "#FFFCF6",
+  "PreviewBorderColor": "#D4D9D9",
+  "PreviewBorderRadius": 12,
+  "PreviewFontColor": "#293F50",
+  "PreviewPropertyTitleColor": "#526575",
+  "PreviewPropertyContentColor": "#293F50",
+  "PreviewSplitLineColor": "#D4D9D9",
+  "PreviewTagFontColor": "#405A70",
+  "PreviewTagBorderColor": "#CDD6DE",
+  "PreviewTagBackgroundColor": "#E6EBED",
+  "PreviewTagBorderRadius": 6,
+  "ToolbarBackgroundColor": "#EDEAE3",
+  "ToolbarFontColor": "#405A70",
+  "ToolbarBorderColor": "#D4D9D9",
+  "ToolbarBorderWidth": 1,
+  "ToolbarHotkeyFontColor": "#405A70",
+  "ToolbarHotkeyBackgroundColor": "#FFFCF6",
+  "ToolbarHotkeyBorderColor": "#BAC6CD",
+  "ToolbarPrimaryFontColor": "#293F50",
+  "ToolbarPrimaryHotkeyFontColor": "#FFFFFF",
+  "ToolbarPrimaryHotkeyBackgroundColor": "#526F89",
+  "ToolbarPrimaryHotkeyBorderColor": "#526F89",
+  "GlanceFontColor": "#405A70",
+  "GlanceIconColor": "#405A70",
+  "ScrollbarThumbColor": "#91A4B5",
+  "ScrollbarThumbHoverColor": "#6F879C",
+  "ScrollbarThumbActiveColor": "#526F89",
+  "RefinementButtonFontColor": "#293F50",
+  "RefinementButtonIconColor": "#293F50",
+  "RefinementButtonBackgroundColor": "#E3EAF0",
+  "RefinementButtonBorderColor": "#A7B6C0",
+  "RefinementButtonHoverBackgroundColor": "#D3DEE7",
+  "RefinementButtonActiveFontColor": "#FFFFFF",
+  "RefinementButtonActiveIconColor": "#FFFFFF",
+  "RefinementButtonActiveBackgroundColor": "#526F89",
+  "RefinementButtonActiveBorderColor": "#526F89",
+  "RefinementButtonActiveHoverBackgroundColor": "#405A70",
+  "Surfaces": {
+    "ActionContainer": {
+      "Frame": {
+        "Source": "assets/knit-frame.png",
+        "Slice": {
+          "Bottom": 250,
+          "Top": 250,
+          "Left": 250,
+          "Right": 250
+        },
+        "Insets": {
+          "Bottom": 24,
+          "Top": 24,
+          "Left": 24,
+          "Right": 24
+        },
+        "Mode": "nineSlice",
+        "Repeat": {
+          "X": "tile",
+          "Y": "tile"
+        }
+      },
+      "InnerShadow": {
+        "Width": 5,
+        "Color": "rgba(25, 42, 55, 0.22)",
+        "Radius": 6,
+        "Insets": {
+          "Bottom": 17,
+          "Right": 17,
+          "Left": 17,
+          "Top": 17
+        }
+      }
+    },
+    "App": {
+      "Frame": {
+        "Source": "assets/knit-frame.png",
+        "Slice": {
+          "Bottom": 250,
+          "Top": 250,
+          "Left": 250,
+          "Right": 250
+        },
+        "Insets": {
+          "Bottom": 40,
+          "Top": 40,
+          "Left": 40,
+          "Right": 40
+        },
+        "Mode": "nineSlice",
+        "Repeat": {
+          "X": "tile",
+          "Y": "tile"
+        }
+      },
+      "ContentInsets": {
+        "Bottom": 29,
+        "Top": 29,
+        "Left": 29,
+        "Right": 29
+      },
+      "InnerShadow": {
+        "Width": 7,
+        "Color": "rgba(25, 42, 55, 0.25)",
+        "Radius": 10,
+        "Insets": {
+          "Bottom": 29,
+          "Right": 29,
+          "Left": 29,
+          "Top": 29
+        }
+      }
+    }
+  },
+  "I18n": {
+    "en_US": {
+      "theme_name": "Knit",
+      "theme_description": "A cozy blue-grey and cream knit frame for a quieter workspace."
+    },
+    "zh_CN": {
+      "theme_name": "织",
+      "theme_description": "蓝灰与奶油白交织的毛衣边框，让工作空间温暖而清爽。"
+    },
+    "ru_RU": {
+      "theme_name": "Вязание",
+      "theme_description": "Уютная вязаная рамка в серо-голубых и кремовых тонах."
+    },
+    "pt_BR": {
+      "theme_name": "Tricô",
+      "theme_description": "Uma moldura aconchegante de tricô em azul acinzentado e creme."
+    },
+    "ko_KR": {
+      "theme_name": "니트",
+      "theme_description": "차분한 작업 공간을 위한 블루 그레이와 크림색 니트 테두리."
+    },
+    "ja_JP": {
+      "theme_name": "ニット",
+      "theme_description": "ブルーグレーとクリーム色のニット枠で、落ち着いた作業空間に。"
+    }
+  }
+}
