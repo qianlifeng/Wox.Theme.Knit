@@ -16,7 +16,7 @@
   "AppBorderWidth": 0,
   "AppBorderRadius": 0,
   "AppContentBackgroundColor": "#F5F1E9",
-  "AppContentBorderRadius": 10,
+  "AppContentBorderRadius": 4,
   "AppPaddingLeft": 12,
   "AppPaddingRight": 12,
   "AppPaddingTop": 10,
@@ -41,16 +41,16 @@
   "ResultItemPaddingLeft": 10,
   "ResultItemPaddingRight": 10,
   "ResultContainerPaddingTop": 8,
-  "ActionContainerBackgroundColor": "#F5F1E9",
+  "ActionContainerBackgroundColor": "transparent",
   "ActionContainerBorderColor": "transparent",
   "ActionContainerBorderWidth": 0,
   "ActionContainerBorderRadius": 18,
   "ActionContainerHeaderFontColor": "#293F50",
   "ActionContainerDividerColor": "#CDD2D2",
-  "ActionContainerPaddingLeft": 24,
-  "ActionContainerPaddingRight": 24,
-  "ActionContainerPaddingTop": 24,
-  "ActionContainerPaddingBottom": 24,
+  "ActionContainerPaddingLeft": 20,
+  "ActionContainerPaddingRight": 20,
+  "ActionContainerPaddingTop": 20,
+  "ActionContainerPaddingBottom": 20,
   "ActionQueryBoxBackgroundColor": "#FFFCF6",
   "ActionQueryBoxFontColor": "#293F50",
   "ActionQueryBoxBorderRadius": 8,
@@ -102,6 +102,22 @@
   "RefinementButtonActiveHoverBackgroundColor": "#405A70",
   "Surfaces": {
     "ActionContainer": {
+      "Background": {
+        "Source": "assets/action-background.png",
+        "Mode": "nineSlice",
+        "Slice": {
+          "Bottom": 24,
+          "Top": 24,
+          "Left": 24,
+          "Right": 24
+        },
+        "Insets": {
+          "Bottom": 12,
+          "Top": 12,
+          "Left": 12,
+          "Right": 12
+        }
+      },
       "Frame": {
         "Source": "assets/knit-frame.png",
         "Slice": {
@@ -111,10 +127,10 @@
           "Right": 250
         },
         "Insets": {
-          "Bottom": 24,
-          "Top": 24,
-          "Left": 24,
-          "Right": 24
+          "Bottom": 12,
+          "Top": 12,
+          "Left": 12,
+          "Right": 12
         },
         "Mode": "nineSlice",
         "Repeat": {
@@ -123,14 +139,14 @@
         }
       },
       "InnerShadow": {
-        "Width": 5,
+        "Width": 3,
         "Color": "rgba(25, 42, 55, 0.22)",
-        "Radius": 6,
+        "Radius": 2,
         "Insets": {
-          "Bottom": 17,
-          "Right": 17,
-          "Left": 17,
-          "Top": 17
+          "Bottom": 9,
+          "Right": 9,
+          "Left": 9,
+          "Top": 9
         }
       }
     },
@@ -144,10 +160,10 @@
           "Right": 250
         },
         "Insets": {
-          "Bottom": 40,
-          "Top": 40,
-          "Left": 40,
-          "Right": 40
+          "Bottom": 20,
+          "Top": 20,
+          "Left": 20,
+          "Right": 20
         },
         "Mode": "nineSlice",
         "Repeat": {
@@ -156,20 +172,20 @@
         }
       },
       "ContentInsets": {
-        "Bottom": 29,
-        "Top": 29,
-        "Left": 29,
-        "Right": 29
+        "Bottom": 15,
+        "Top": 15,
+        "Left": 15,
+        "Right": 15
       },
       "InnerShadow": {
-        "Width": 7,
+        "Width": 4,
         "Color": "rgba(25, 42, 55, 0.25)",
-        "Radius": 10,
+        "Radius": 4,
         "Insets": {
-          "Bottom": 29,
-          "Right": 29,
-          "Left": 29,
-          "Top": 29
+          "Bottom": 15,
+          "Right": 15,
+          "Left": 15,
+          "Top": 15
         }
       }
     }
